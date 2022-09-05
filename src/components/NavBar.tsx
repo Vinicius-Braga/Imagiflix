@@ -42,7 +42,7 @@ const NavBar = () => {
             <FontAwesomeIcon className="ml-2" icon={faCaretDown}/>
             </button>
             <ul 
-               className={`absolute mt-10 top-0 right-0 w-32 bg-black rounded p-4 trasition-all duration-300 ease-in-out  ${!isMenuOpen && 'opacity-0 invisible'}`}>
+               className={`absolute mt-10 top-0 right-0 w-32 bg-black rounded p-4 trasition-all duration-500 ease-in-out  ${!isMenuOpen && 'opacity-0 invisible'}`}>
                <li><a href="account" onClick={handleClick}>Minha conta</a></li>
                <li><a href="logout" onClick={handleClick}>Sair</a></li>
             </ul>
